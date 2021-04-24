@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "migrate": "node model/database.js"
+    "migrate": "node model/database.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.12.1",
