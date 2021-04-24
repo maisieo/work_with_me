@@ -4,7 +4,7 @@ import MapBubbleForm from "./MapBubbleForm";
 import { popupContent, popupHead, popupText, okText } from "./PopupStyles";
 const key1 = "3ZRkB6HHC7nuyGx3xGq1wvkQNUZgBEyU"; //separate keys for both batch and single API call
 const key2 = "HtjjO4zjuAqWJ5bTcp6HMXp5Ej4uq47i";
-const BASEURLmap = "http://www.mapquestapi.com/geocoding/v1/"; // base URL applies for both single and batch call
+const BASEURLmap = "https://www.mapquestapi.com/geocoding/v1/"; // base URL applies for both single and batch call
 
 function APImap({ bubbles }) {
   const [data, setData] = useState(""); //useState for data from the single API call
